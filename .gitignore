@@ -1,3 +1,9 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.db
+
 # Logs
 logs
 *.log
