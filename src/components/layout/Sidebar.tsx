@@ -22,7 +22,7 @@ import {
   Building2,
 } from "lucide-react"
 import { useAppStore } from "@/stores/appStore"
-import { Badge } from "@/components/ui/Badge"
+import { Badge } from "@/components/ui/badge"
 import { cn } from "@/utils/cn"
 
 interface SidebarProps {
