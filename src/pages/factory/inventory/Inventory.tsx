@@ -7,8 +7,8 @@ import { api } from "@/api/client"
 import { useAppStore } from "@/stores/appStore"
 import { StatCard } from "@/components/ui/StatCard"
 import { Table } from "@/components/ui/Table"
-import { Badge } from "@/components/ui/Badge"
-import { Card } from "@/components/ui/Card"
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
 
 export default function Inventory() {
   const { factoryId } = useParams<{ factoryId: string }>()

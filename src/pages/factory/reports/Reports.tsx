@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom"
 import { FileText, Download, FileSpreadsheet } from "lucide-react"
 import { api } from "@/api/client"
 import { useAppStore } from "@/stores/appStore"
-import { Button } from "@/components/ui/Button"
-import { Card } from "@/components/ui/Card"
+import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
 
 export default function Reports() {
   const { factoryId } = useParams<{ factoryId: string }>()

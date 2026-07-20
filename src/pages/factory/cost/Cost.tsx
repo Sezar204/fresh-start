@@ -4,7 +4,7 @@ import { DollarSign, TrendingUp, TrendingDown } from "lucide-react"
 import { api } from "@/api/client"
 import { useAppStore } from "@/stores/appStore"
 import { StatCard } from "@/components/ui/StatCard"
-import { Card } from "@/components/ui/Card"
+import { Card } from "@/components/ui/card"
 
 export default function Cost() {
   const { factoryId } = useParams<{ factoryId: string }>()

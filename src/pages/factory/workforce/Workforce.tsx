@@ -7,8 +7,8 @@ import { useAppStore } from "@/stores/appStore"
 import { Worker } from "@/types"
 import { StatCard } from "@/components/ui/StatCard"
 import { Table } from "@/components/ui/Table"
-import { Button } from "@/components/ui/Button"
-import { Badge } from "@/components/ui/Badge"
+import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
 
 export default function Workforce() {
   const { factoryId } = useParams<{ factoryId: string }>()

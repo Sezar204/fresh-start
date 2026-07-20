@@ -4,9 +4,9 @@ import { BarChart2, Plus } from "lucide-react"
 import { api } from "@/api/client"
 import { useAppStore } from "@/stores/appStore"
 import { Sparkline } from "@/components/ui/Sparkline"
-import { Card } from "@/components/ui/Card"
-import { Button } from "@/components/ui/Button"
-import { Badge } from "@/components/ui/Badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
 
 export default function KPICenter() {
   const { factoryId } = useParams<{ factoryId: string }>()

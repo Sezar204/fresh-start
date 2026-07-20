@@ -3,9 +3,9 @@ import * as Tabs from "@radix-ui/react-tabs"
 import { Save, Database, ShieldCheck } from "lucide-react"
 import { systemApi } from "@/api/system"
 import { useAppStore } from "@/stores/appStore"
-import { Button } from "@/components/ui/Button"
-import { Card } from "@/components/ui/Card"
-import { Badge } from "@/components/ui/Badge"
+import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
 
 export default function Settings() {
   const { notify, setLastBackup } = useAppStore()

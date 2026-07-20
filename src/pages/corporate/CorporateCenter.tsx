@@ -4,9 +4,9 @@ import { RefreshCw, Factory as FactoryIcon, AlertTriangle, CheckCircle2 } from "
 import { api } from "@/api/client"
 import { useAppStore } from "@/stores/appStore"
 import { StatCard } from "@/components/ui/StatCard"
-import { Card } from "@/components/ui/Card"
-import { Button } from "@/components/ui/Button"
-import { Badge } from "@/components/ui/Badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
 import { HealthGauge } from "@/components/ui/HealthGauge"
 
 export default function CorporateCenter() {
