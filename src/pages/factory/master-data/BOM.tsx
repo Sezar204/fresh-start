@@ -7,7 +7,7 @@ import { useAppStore } from "@/stores/appStore"
 import { BOMHeader } from "@/types"
 import { StatCard } from "@/components/ui/StatCard"
 import { Table } from "@/components/ui/Table"
-import { Badge } from "@/components/ui/Badge"
+import { Badge } from "@/components/ui/badge"
 
 export default function BOM() {
   const { factoryId } = useParams<{ factoryId: string }>()

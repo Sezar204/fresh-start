@@ -8,7 +8,7 @@ import { Supplier } from "@/types"
 import { StatCard } from "@/components/ui/StatCard"
 import { SearchBar } from "@/components/ui/SearchBar"
 import { Table } from "@/components/ui/Table"
-import { Badge } from "@/components/ui/Badge"
+import { Badge } from "@/components/ui/badge"
 
 export default function Suppliers() {
   const { factoryId } = useParams<{ factoryId: string }>()

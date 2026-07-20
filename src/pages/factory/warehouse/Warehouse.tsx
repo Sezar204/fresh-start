@@ -6,7 +6,7 @@ import { api } from "@/api/client"
 import { useAppStore } from "@/stores/appStore"
 import { StatCard } from "@/components/ui/StatCard"
 import { Table } from "@/components/ui/Table"
-import { Badge } from "@/components/ui/Badge"
+import { Badge } from "@/components/ui/badge"
 
 export default function WarehousePage() {
   const { factoryId } = useParams<{ factoryId: string }>()

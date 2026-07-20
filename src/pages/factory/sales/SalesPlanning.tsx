@@ -8,8 +8,8 @@ import { useAppStore } from "@/stores/appStore"
 import { SalesOrder } from "@/types"
 import { StatCard } from "@/components/ui/StatCard"
 import { Table } from "@/components/ui/Table"
-import { Button } from "@/components/ui/Button"
-import { Badge } from "@/components/ui/Badge"
+import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
 import { LineChart } from "@/components/charts/LineChart"
 
 export default function SalesPlanning() {
